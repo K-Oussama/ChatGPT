@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "GPT-Gate Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oussama KORCHI",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.1",
+    "redis": "^4.6.4",
+    "util": "^0.12.5",
+    "openai": "^3.1.0"
+  }
+}
