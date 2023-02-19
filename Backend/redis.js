@@ -8,7 +8,7 @@ let client;
 function createClient() {
   client = redis.createClient({
     url: 'redis://redis:6379', // redis://127.0.0.1:6379
-    legacyMode: true
+    legacyMode: true,
     //host: process.env.REDIS_HOST || '127.0.0.1'
   });
 
